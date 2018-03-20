@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mad libs.</title>
+        <link rel="stylesheet" type="text/css" href="madlibs.css">
+    </head>
+    
+    <body>
+        <main>
+            <header>
+                <h1>mad libs.</h1>
+                <p>type words, get funky story.</p>
+            </header>
+
+            <section>
+                <form id="stories">
+                    <label for="story-selector">choose a story.</label>
+                    <select id="story-selector" onchange="storySelector()">
+                        <option></option>
+                        <option></option>
+                    </select>
+                </form>
+
+                <article class="story1">
+                    <form id="inputs" action="madlibs.php" method="post">
+                        <input type="text" name="location" placeholder="Location, e.g. South Africa, Bermuda, Mars"><br><br>
+                        <input type="number" name="number" placeholder="Number, e.g. 1, 2, 3"><br><br>
+                        <input type="text" name="animal" placeholder="Animal, e.g. bear, hare, mare"><br><br>
+                        <input type="text" name="verb1" placeholder="Verb, e.g. play, skit, dive"><br><br>
+                        <input type="text" name="verb2" placeholder="Verb, e.g. say, knit, thrive"><br><br>
+                        <input type="text" name="adjective1" placeholder="Adjective, e.g. sad, lazy, engaged"><br><br>
+                        <input type="text" name="adjective1" placeholder="Adjective, e.g. mad, crazy, outraged"><br><br>
+                        <input type="text" name="noun" placeholder="Noun, e.g. brick, paper towel roll, door frame"><br><br>
+
+                        <input type="submit" name="submit" value="create story.">
+                    </form>
+                </article>
+
+                <article class="story2">
+                    <form id="inputs" action="madlibs.php" method="post">
+                        <input type="text" name="location" placeholder="SECOND, e.g. South Africa, Bermuda, Mars"><br><br>
+                        <input type="number" name="number" placeholder="Number, e.g. 1, 2, 3"><br><br>
+                        <input type="text" name="animal" placeholder="Animal, e.g. bear, hare, mare"><br><br>
+                        <input type="text" name="verb1" placeholder="Verb, e.g. play, skit, dive"><br><br>
+                        <input type="text" name="verb2" placeholder="Verb, e.g. say, knit, thrive"><br><br>
+                        <input type="text" name="adjective1" placeholder="Adjective, e.g. sad, lazy, engaged"><br><br>
+                        <input type="text" name="adjective1" placeholder="Adjective, e.g. mad, crazy, outraged"><br><br>
+                        <input type="text" name="noun" placeholder="Noun, e.g. brick, paper towel roll, door frame"><br><br>
+    
+                        <input type="submit" name="submit" value="create story.">
+                    </form>
+                </article>
+
+            </section>
+        </main>
+        
+        <footer>
+            <p id="footer">copyright sabah siddique 2017.</p>
+        </footer>
+
+        
+        <script type="text/javascript" src="madlibs.js"></script>
+    </body>
+</html>
