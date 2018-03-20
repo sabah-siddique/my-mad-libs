@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main body */
+
+main {
+    border: 2px solid #eb428b;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    width: 60%;
+}
+
+
+
+/* Header */
+
+h1 {
+    padding-left: 5px;
+    text-transform: lowercase;
+}
+
+p {
+    padding: 7px 0 5px 5px;
+}
+
+#faded {
+    color: #999;
+}
+
+/* Form */
+
+form {
+    padding: 5px;
+}
+
+input[type="text"], input[type="number"] {
+    outline: none;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #5999ed;
+    padding: 10px;
+    color: #555;
+    font-size: 0.9em;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    box-shadow: 0 0 5px #43D1AF;
+    padding: 10px;
+    border: 1px solid #43D1AD;
+}
+
+input[type="submit"] {
+    /* http://css3button.net/ */
+    color: #fff;
+    background: #ed5999;
+    border-bottom: 2px solid #eb428b;
+    border-right: 2px solid #eb428b;
+    font-size: 13px;
+    padding: 10px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background: #f287b5;
+}
+
+
+/* Footer */
+
+footer {
+    margin-left: 20%;
+    padding: 0;
+}
+
+#footer {
+    font-size: 0.9em;
+    padding: 0;
+    padding-top: 7px;
+}
+
+
+
+/* PHP page styles */
+
+h2 {
+    text-transform: lowercase;
+}
+
+#story-section {
+    margin-bottom: 0;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+#story {
+    margin-top: 5px;
+}
+
+a {text-decoration: none;}
+a:link {color: #000}
+a:visited {color: #000}
+a:hover {color: #be2e6d}
+a:active {color: #ed5999}
+
+#return-to-home {
+    margin-top: 10px;
+}
