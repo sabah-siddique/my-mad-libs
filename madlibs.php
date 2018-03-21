@@ -18,7 +18,7 @@ $noun = "bird farm";
         <link rel="stylesheet" type="text/css" href="madlibs-app.css">
     </head>
     
-    <body style="background:url('polka-dots.jpg')">
+    <body style="background:url('photos/polka-dots.jpg')">
         <main>
             <header>
                 <h1 id="faded">Mad Libs</h1>
